@@ -96,6 +96,7 @@ img {
 
 
 main {
+    background-color: red;
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;

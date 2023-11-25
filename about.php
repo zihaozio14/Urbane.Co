@@ -13,10 +13,7 @@
     require_once("template/footer.html");
     
 ?>
-
-<div>
-</div>
-        
+       
     </body>
     <script src="js/script.js"></script>
 </html>

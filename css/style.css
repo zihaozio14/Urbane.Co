@@ -158,6 +158,7 @@ footer > #footnav {
     }
 
     #topnav > .hamburger {
+        margin-top: 0px;
         margin-left: -60vw;
         width: 60vw;
         height: 100vh;

@@ -94,7 +94,7 @@ img {
 }
 
 
-
+/*MAIN SECTION*/
 main {
     display: flex;
     flex-flow: column nowrap;
@@ -215,5 +215,9 @@ footer > #footnav {
 
     footer > #footnav, #newsletter {
         border: none;
+    }
+
+    footer > #logo {
+        width: 11rem;
     }
 }

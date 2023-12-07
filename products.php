@@ -9,7 +9,7 @@
 <?php
     
     require_once("template/navbar.html");
-    require_once("template/news.html");
+    require_once("template/products.html");
     require_once("template/footer.html");
     
 ?>

@@ -100,7 +100,7 @@ img {
 }
 
 
-
+/*MAIN SECTION*/
 main {
     display: flex;
     flex-flow: column nowrap;
@@ -164,6 +164,7 @@ footer > #footnav {
     }
 
     #topnav > .hamburger {
+        margin-top: 0px;
         margin-left: -60vw;
         width: 60vw;
         height: 100vh;
@@ -221,5 +222,9 @@ footer > #footnav {
 
     footer > #footnav, #newsletter {
         border: none;
+    }
+
+    footer > #logo {
+        width: 11rem;
     }
 }

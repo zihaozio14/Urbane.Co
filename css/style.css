@@ -102,18 +102,6 @@ main {
 }
 
 
-/*INDEX*/
-#feature > hgroup > h2 {
-    font-family: 'Noticia Text';
-    font-size: 35px;
-}
-
-#feature > hgroup > p {
-    font-family: 'Noticia Text';
-    font-size: 20px;
-}
-
-
 /*FOOTER STYLE*/
 footer {
     background-color: #124559;

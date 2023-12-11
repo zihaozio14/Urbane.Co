@@ -1,0 +1,43 @@
+#headline {
+    color: #1D4559;
+}
+
+#headline h1 {
+    font-family: 'League Spartan';
+    font-size: 55px;
+}
+
+#headline p {
+    font-family: 'Noticia Text';
+    font-size: 25px;
+}
+
+#categories h6 {
+    font-family: 'Noticia Text';
+    font-size: 25px;
+    color: #1d4559;
+}
+
+#display article {
+    font-family: 'Noticia Text';
+}
+
+#display article img {
+    border-style: solid;
+    border-width: 2px;
+    width: 356px;
+    height: 516px;
+}
+
+#display article h2 {
+    color: #1d4559;
+}
+
+#display article h3 {
+    color: #5F8392;
+}
+
+#display article p {
+    color: red;
+    font-size: 25px;
+}

@@ -1,0 +1,29 @@
+#headline {
+    color: #1D4559;
+}
+
+#headline h1 {
+    font-family: 'League Spartan';
+    font-size: 55px;
+}
+
+#headline p {
+    font-family: 'Noticia Text';
+    font-size: 25px;
+}
+
+#forms {
+    background-color: #5F8392;
+    border-style: solid;
+    border-color: black;
+    border-width: 2.5px;
+}
+
+label, button {
+    font-family: 'Noticia Text';
+    color: white;
+}
+
+button {
+    background-color: black;
+}

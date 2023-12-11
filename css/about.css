@@ -1,0 +1,21 @@
+.banner {
+    font-family: 'League Spartan';
+    color: white;    
+}
+
+.banner h1{
+    font-size: 200px;
+}
+
+.banner p{
+    font-size: 50px;
+}
+
+#headline h1 {
+    font-size: 45px;
+}
+
+#headline, #h-p, #m-v {
+    font-family: 'Noticia Text';
+    color: #1d4559;
+}

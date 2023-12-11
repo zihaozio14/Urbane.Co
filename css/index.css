@@ -1,7 +1,15 @@
 /*INDEX*/
+#slide1 button {
+    font-family: 'Michroma'; 
+    color: white; 
+    background-color: #021E82;
+}
+
+
+
 #feature h2 {
     font-family: 'Noticia Text';
-    font-size: 35px;
+    font-size: 45px;
     color:#1D4559;
 }
 
@@ -11,5 +19,28 @@
     color:#1D4559;
 }
 
+#sportslook button {
+    font-family: 'League Spartan';
+    color: white;
+    background-color: black;
+}
 
+#featurednews h2 {
+    font-family: 'Noticia Text';
+    font-size: 45px;
+    color:#1D4559;
+}
+
+#featurednews h1 {
+    font-family: 'Michroma';
+    font-weight: normal;
+    font-size: 80px;
+    color:#1D4559;
+}
+
+#featurednews p {
+    font-family: 'Noticia Text';
+    font-size: 35px;
+    color:#1D4559;
+}
 

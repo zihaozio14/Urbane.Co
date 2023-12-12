@@ -379,7 +379,7 @@ span {
 }
 
 #articles > * {
-    margin: 20px;
+    margin: 50px;
     width: 75vw;
 
     display: flex;

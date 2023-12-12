@@ -517,7 +517,6 @@ span {
 #product #display {
     width: 70%;
     position: relative;
-    margin-right: 20px;
     flex-grow: 1;
 
     display: flex;
@@ -532,11 +531,11 @@ span {
     flex-flow: row wrap;
     justify-content: flex-start;
     align-items: stretch;
+    flex-grow: 1;
 }
 
 :is(#promotion, #new-in, #retail) > article {
     margin: 10px;
-    flex-grow: 1;
 }
 
 :is(#promotion, #new-in, #retail).toggle {

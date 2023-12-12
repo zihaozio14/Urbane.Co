@@ -84,7 +84,7 @@ img {
     position: absolute;
     top: 0px;
     left: 0px;
-    z-index: 498;
+    z-index: 998;
     width: 100vw;
     height: 100vh;
     background-color: black;
@@ -210,6 +210,10 @@ footer > #newsletter > h2 {
     justify-content: center;
 }
 
+.fade {
+    display: none;
+}
+
 @media screen and (max-width: 860px) {
     #topnav {
         justify-content: flex-start;
@@ -225,7 +229,7 @@ footer > #newsletter > h2 {
         position: fixed;
         top: 0px;
         left: 0px;
-        z-index: 499;
+        z-index: 999;
 
         flex-flow: column nowrap;
         justify-content: flex-start;

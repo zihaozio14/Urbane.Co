@@ -29,3 +29,27 @@ setInterval(() => {
   curr.classList.toggle("active");
   
 }, 3000);
+
+
+let active = document.getElementById("promotion");
+
+document.getElementById("promotion").addEventListener("click", () => {
+
+  active.classList.toggle("toggle");
+  document.getElementById("promotion").classList.toggle("toggle");
+
+})
+
+document.getElementById("new-in").addEventListener("click", () => {
+
+  active.classList.toggle("toggle");
+  document.getElementById("new-in").classList.toggle("toggle");
+
+})
+
+document.getElementById("retail").addEventListener("click", () => {
+
+  active.classList.toggle("toggle");
+  document.getElementById("retail").classList.toggle("toggle");
+
+})

@@ -136,6 +136,10 @@ footer > #logo, #newsletter > p {
     font-size: 20px;
 }
 
+footer > #logo {
+    padding-left: 10px;
+}
+
 footer > #footnav, #newsletter {
     padding-left: 10px;
     border-left: 3px solid white;
@@ -152,15 +156,6 @@ footer > #footnav {
 footer > #footnav > a{
     font-family: 'League Spartan', sans-serif;
     font-size: 32px;
-    margin-left: 10px;
-}
-
-#newsletter h2, #footicons, form {
-    margin-left: 10px;
-}
-
-#newsletter p {
-    margin-left: 10px;
 }
 
 footer > #newsletter > h2 {

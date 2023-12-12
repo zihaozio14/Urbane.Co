@@ -255,7 +255,6 @@ footer > #newsletter > h2 {
 
 #featurednews > a > hgroup {
     flex-basis: 30%;
-    padding-left: 100px;
 }
 
 .fade {
@@ -601,7 +600,6 @@ span {
         flex-flow: column nowrap;
         justify-content: space-between;
         align-items: flex-start;
-        height: 850px;
     }
 
     footer > section {

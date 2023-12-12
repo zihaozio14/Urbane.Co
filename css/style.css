@@ -29,6 +29,9 @@ img {
     object-fit: cover;
 }
 
+ul > li::before {
+    content: "- ";
+}
 
 
 /* NAVIGATION BAR STYLE */
@@ -269,6 +272,52 @@ span {
     margin: 100px 0px 100px 0px;
 }
 
+/*about*/
+#about, #headline {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#headline {
+    margin: 50px 0 20px 0;
+}
+
+#about .banner {
+    position: relative;
+    width: 100vw;
+    height: 75vh;
+}
+
+#about .banner > * {
+    position: absolute;
+}
+
+#h-p {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+:is(#history, #purpose) {
+    width: 75vw;
+    height: 50vh;
+    margin: 50px;
+
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+:is(#history, #purpose) > * {
+    width: 50%;
+    height: 100%;
+    object-fit: contain;
+}
+
 @media screen and (max-width: 860px) {
     #topnav {
         justify-content: flex-start;
@@ -350,5 +399,19 @@ span {
 
     #feature > nav > a {
         width: 75vw;
+    }
+
+    :is(#history, #purpose) {
+        width: 100vw;
+        height: auto;
+        flex-flow: column nowrap;
+    }
+
+    #purpose > img {
+        order: 1;
+    }
+
+    #purpose > hgroup {
+        order: 2;
     }
 }

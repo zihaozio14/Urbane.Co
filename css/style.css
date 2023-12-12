@@ -627,6 +627,10 @@ span {
         width: 75vw;
     }
 
+    #featurednews > a {
+        justify-content: center;
+    }
+
     #featurednews > a > hgroup {
         position: absolute;
     }

@@ -199,6 +199,7 @@ footer > #newsletter > h2 {
 }
 
 #feature {
+    width: 100vw;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
@@ -206,10 +207,17 @@ footer > #newsletter > h2 {
 }
 
 #feature > nav {
+    width: 100%;
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
     justify-content: space-evenly;
+}
+
+#feature > nav > a {
+    width: 25vw;
+    height: 75vh;
+    margin: 20px;
 }
 
 #feature > hgroup {
@@ -338,5 +346,9 @@ span {
 
     #index > #feature > nav {
         flex-flow: column nowrap;
+    }
+
+    #feature > nav > a {
+        width: 75vw;
     }
 }

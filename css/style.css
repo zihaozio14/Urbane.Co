@@ -131,7 +131,6 @@ footer > * {
 }
 
 footer > section {
-    margin-top: 50px;
     height: 25vh;
     flex: 0 0 25vw;
 }

@@ -601,11 +601,10 @@ span {
         flex-flow: column nowrap;
         justify-content: space-between;
         align-items: flex-start;
-        height: 850px;
     }
 
     footer > section {
-        flex-basis: 20vh;
+        flex-basis: 30vh;
     }
 
     footer > p {

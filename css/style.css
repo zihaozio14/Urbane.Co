@@ -602,7 +602,7 @@ span {
     }
 
     footer > section {
-        flex-basis: 30vh;
+        flex-basis: 100%;
     }
 
     footer > p {

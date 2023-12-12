@@ -515,6 +515,7 @@ span {
 
 :is(#promotion, #new-in, #retail) > article {
     margin: 10px;
+    flex-grow: 1;
 }
 
 :is(#promotion, #new-in, #retail).toggle {

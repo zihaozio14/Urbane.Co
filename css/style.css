@@ -231,16 +231,23 @@ footer > #newsletter > h2 {
 
 :is(#sportslook, #featurednews) {
     width: 100vw;
-    height: 60vh;
+    height: 65vh;
     position: relative;
 }
 
-:is(#sportslook, #featurednews>a) > * {
+#sportslook > * {
     position: absolute;
 }
 
+#featurednews > a {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: stretch;
+    align-items: stretch;
+}
+
 #featurednews > a > hgroup {
-    right: 50px;
+    flex-basis: 30%;
 }
 
 .fade {
@@ -614,7 +621,7 @@ span {
     }
 
     #featurednews > a > hgroup {
-        left: 0px;
+        position: absolute;
     }
 
     :is(#history, #purpose) {

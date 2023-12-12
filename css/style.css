@@ -601,6 +601,7 @@ span {
         flex-flow: column nowrap;
         justify-content: space-between;
         align-items: flex-start;
+        height: 850px;
     }
 
     footer > section {

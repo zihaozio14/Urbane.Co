@@ -248,6 +248,7 @@ footer > #newsletter > h2 {
 
 #featurednews > a > hgroup {
     flex-basis: 30%;
+    padding-left: 100px;
 }
 
 .fade {

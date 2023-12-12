@@ -34,7 +34,8 @@
 #featurednews h1 {
     font-family: 'Michroma';
     font-weight: normal;
-    font-size: 80px;
+    font-size: 100px;
+    line-height: 110px;
     color:#1D4559;
 }
 

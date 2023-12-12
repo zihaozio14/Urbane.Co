@@ -175,6 +175,19 @@ footer > #newsletter > h2 {
 }
 
 
+/*slideshow*/
+.slideshow {
+    position: relative;
+}
+
+.slideshow > a {
+    position: absolute;
+}
+
+.slideshow > a > * {
+    position: absolute;
+}
+
 
 @media screen and (max-width: 860px) {
     #topnav {

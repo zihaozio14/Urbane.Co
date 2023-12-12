@@ -243,14 +243,22 @@ footer > #newsletter > h2 {
 
 span {
     margin: 2px;
-    background-color: grey;
+    background-color: lightgray;
     width: 10px;
     height: 10px;
     border-radius: 50%/50%;
 }
 
 .active {
-    background-color: lightgray;
+    background-color: grey;
+}
+
+.vector {
+    object-fit: contain;
+}
+
+#feature, #sportslook, #featurednews {
+    margin: 100px 0px 100px 0px;
 }
 
 @media screen and (max-width: 860px) {

@@ -466,6 +466,7 @@ span {
 
 /*products*/
 #product {
+    width: 100vw;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -492,7 +493,9 @@ span {
 }
 
 #product #display {
+    width: 70%;
     position: relative;
+    margin-right: 20px;
     flex-grow: 1;
 
     display: flex;
@@ -501,12 +504,21 @@ span {
     align-items: center;
 }
 
-#product #display > * {
+#promotion, #new-in, #retail {
     position: absolute;
     display: none;
     flex-flow: row wrap;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+:is(#promotion, #new-in, #retail) > article {
+    margin: 10px;
+}
+
+:is(#promotion, #new-in, #retail).toggle {
+    position: relative;
+    display: flex;
 }
 
 @media screen and (max-width: 890px) {

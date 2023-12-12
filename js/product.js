@@ -1,4 +1,5 @@
 let active = document.getElementById("promotion");
+let select = document.getElementById("promo");
 
 document.getElementById("promo").addEventListener("click", () => {
 

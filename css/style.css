@@ -542,6 +542,11 @@ span {
     display: flex;
 }
 
+:is(#promo, #new, #ret).toggle {
+    color: #124559;
+    text-decoration: underline;
+}
+
 @media screen and (max-width: 890px) {
     #topnav {
         justify-content: flex-start;

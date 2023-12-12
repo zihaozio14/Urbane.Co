@@ -614,7 +614,14 @@ span {
     }
 
     footer > #logo {
-        width: 11rem;
+        font-size: 1.05rem;
+        width: 22rem;
+    }
+
+    #logo > a > img{
+        width: 250px;
+        height: 200px;
+        margin-bottom: -50px;
     }
 
     #index > #feature > nav {

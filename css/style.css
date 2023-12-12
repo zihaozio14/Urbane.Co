@@ -239,6 +239,10 @@ footer > #newsletter > h2 {
     position: absolute;
 }
 
+#featurednews > a > hgroup {
+    right: 50px;
+}
+
 .fade {
     display: none;
 }
@@ -607,6 +611,11 @@ span {
 
     #feature > nav > a {
         width: 75vw;
+    }
+
+    #featurednews > a > hgroup {
+        color: white;
+        right: 0px;
     }
 
     :is(#history, #purpose) {

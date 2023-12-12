@@ -1,8 +1,8 @@
 <?php
-$servername = "localhost";
-$database = "u453974301_zippo_db";
-$username = "u453974301_zippo";
-$password = "kga-Kd.q6~PBU:57";
+$servername = "urbaneco.shop";
+$database = "u219822055_urbaneco";
+$username = "u219822055_urbaneco";
+$password = "Redgr@v2023";
 
 //Contact form database PHP
 $connection = mysqli_connect($servername, $username, $password, $database);

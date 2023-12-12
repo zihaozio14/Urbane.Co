@@ -615,7 +615,7 @@ span {
 
     #featurednews > a > hgroup {
         color: white;
-        right: 0px;
+        right: none;
     }
 
     :is(#history, #purpose) {

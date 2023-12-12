@@ -42,10 +42,6 @@ img {
     align-items: center;
 }
 
-#topnav > * {
-    margin: 10px;
-}
-
 #topnav > .hamburger {
     display: flex;
     flex-flow: row nowrap;
@@ -57,7 +53,7 @@ img {
 
 /*add padding and font style of link here*/
 #topnav > .hamburger > a {
-    padding: 0px 8px 0px 10px;
+    padding: 0px 10px 0px 10px;
     font-family: 'League Spartan', sans-serif;
     font-size: 25px;
     color: white;
@@ -71,12 +67,17 @@ img {
 }
 
 #topnav > .hamburger > nav {
+    margin: 0px 10px 0px 10px;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-evenly;
     align-items: center;
 
     align-self: center;
+}
+
+#topnav > .hamburger > nav > a {
+    margin: 10px;
 }
 
 #menu-btn {

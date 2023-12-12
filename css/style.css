@@ -288,6 +288,11 @@ span {
     position: relative;
     width: 100vw;
     height: 75vh;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 #about .banner > * {
@@ -332,6 +337,61 @@ span {
     width: 50%;
     height: 100%;
     padding: 20px;
+}
+
+
+/*news*/
+#news {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+#news .banner {
+    width: 100vw;
+    height: 75vh;
+    position: relative;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#news .banner > * {
+    position: absolute;
+}
+
+#news .headline {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+    margin: 50px 0 40px 0;
+}
+
+#articles {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#articles > * {
+    width: 100vw;
+    height: 50vh;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#articles img {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
 }
 
 @media screen and (max-width: 860px) {
@@ -435,5 +495,9 @@ span {
         height: auto;
         flex-flow: column nowrap;
         margin-bottom: 50px;
+    }
+
+    .banner {
+        align-items: center;
     }
 }

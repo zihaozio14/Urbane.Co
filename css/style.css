@@ -30,7 +30,7 @@ img {
 }
 
 ul > li::before {
-    content: "- ";
+    content: " • ";
 }
 
 
@@ -318,6 +318,22 @@ span {
     object-fit: contain;
 }
 
+#m-v {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 50vh;
+}
+
+#m-v > * {
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+}
+
 @media screen and (max-width: 860px) {
     #topnav {
         justify-content: flex-start;
@@ -413,5 +429,11 @@ span {
 
     #purpose > hgroup {
         order: 2;
+    }
+
+    #m-v {
+        height: auto;
+        flex-flow: column nowrap;
+        margin-bottom: 50px;
     }
 }

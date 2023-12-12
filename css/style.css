@@ -58,12 +58,14 @@ img {
     font-size: 25px;
     color: white;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     align-self: stretch;
 }
 
 #topnav > .hamburger > a:hover {
-    background-color: aquamarine;
+    background-color: #eff6e0;
+    color: #124559;
+    text-decoration: underline;
 }
 
 #topnav > .hamburger > nav {
@@ -81,6 +83,8 @@ img {
 }
 
 #menu-btn {
+    margin: 10px;
+    padding: 10px;
     cursor: pointer;
     display: none;
 }
@@ -194,25 +198,35 @@ footer > #newsletter > h2 {
     height: 100%;
 }
 
-#index > #feature {
+#feature {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
     justify-content: space-between;
 }
 
-#index > #feature > nav {
+#feature > nav {
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
     justify-content: space-evenly;
 }
 
-#index > #feature > hgroup {
+#feature > hgroup {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
     justify-content: center;
+}
+
+:is(#sportslook, #featurednews) {
+    width: 100vw;
+    height: 60vh;
+    position: relative;
+}
+
+:is(#sportslook, #featurednews>a) > * {
+    position: absolute;
 }
 
 .fade {
@@ -265,7 +279,12 @@ span {
 
     /*add padding and font style of link here*/
     #topnav > .hamburger > a {
-        color: #16294d;
+        padding: 10px 0px 10px 10px;
+        color: #124559;
+    }
+
+    #topnav > .hamburger > a:hover {
+        background-color: lightgray;
     }
 
     #topnav > .hamburger > nav {

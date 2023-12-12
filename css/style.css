@@ -121,7 +121,7 @@ footer > * {
 }
 
 footer > section {
-    height: 20vh;
+    height: 50vh;
     flex: 0 0 25vw;
 }
 
@@ -130,12 +130,6 @@ footer > p {
     padding-top: 10px;
     text-align: center;
     flex: 1 0 100%;
-}
-
-footer > #logo {
-    margin-top: -10px;
-    margin-left: -20px;
-    margin-right: -200px;
 }
 
 footer > #logo, #newsletter > p {

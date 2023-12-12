@@ -4,7 +4,7 @@
 
 #headline h1 {
     font-family: 'League Spartan';
-    font-size: 55px;
+    font-size: 85px;
 }
 
 #headline p {
@@ -22,6 +22,10 @@
 label, button {
     font-family: 'Noticia Text';
     color: white;
+}
+
+label {
+    font-size: 30px;
 }
 
 button {

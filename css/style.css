@@ -442,15 +442,17 @@ span {
 
 
 /*contact*/
+#headline {
+    margin-top: 100px;
+}
+
 #forms {
     display: flex;
     flex-flow: row nowrap;
     justify-content: stretch;
     align-items: stretch;
-
-    width: 90vw;
-    height: 90vh;
-
+    width: 65vw;
+    height: 75vh;
     margin: 50px;
 }
 

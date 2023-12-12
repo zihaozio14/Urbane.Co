@@ -26,5 +26,6 @@
 ?>
 
     </body>
-    <script src="js/script.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/product.js"></script>
 </html>

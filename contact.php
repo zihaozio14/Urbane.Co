@@ -26,5 +26,5 @@ require_once("template/mobile.html");
 ?>
 
     </body>
-    <script src="js/script.js"></script>
+    <script src="js/nav.js"></script>
 </html>

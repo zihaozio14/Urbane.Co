@@ -57,6 +57,7 @@ img {
 
 /*add padding and font style of link here*/
 #topnav > .hamburger > a {
+    padding: 0px 8px 0px 10px;
     font-family: 'League Spartan', sans-serif;
     font-size: 25px;
     color: white;
@@ -65,6 +66,9 @@ img {
     align-self: stretch;
 }
 
+#topnav > .hamburger > a:hover {
+    background-color: aquamarine;
+}
 
 #topnav > .hamburger > nav {
     display: flex;
@@ -212,6 +216,26 @@ footer > #newsletter > h2 {
 
 .fade {
     display: none;
+}
+
+#indicator {
+    margin: 10px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    margin: 2px;
+    background-color: grey;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%/50%;
+}
+
+.active {
+    background-color: lightgray;
 }
 
 @media screen and (max-width: 860px) {

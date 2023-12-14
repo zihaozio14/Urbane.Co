@@ -1,18 +1,59 @@
+/*news*/
+#news {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+#news .banner {
+    width: 100vw;
+    height: 55vh;
+    position: relative;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#news .banner > * {
+    position: absolute;
+}
+
+#news .headline {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+    margin: 50px 0 40px 0;
+}
+
 .banner {
     font-family: 'League Spartan';
     color: white;    
 }
 
+.banner h1, .banner p {
+    margin-left: 80px;
+
+}
+
 .banner h1{
-    font-size: 200px;
+    font-size: 165px;
 }
 
 .banner p{
-    font-size: 50px;
+    font-size: 45px;
 }
 
 .headline h1 {
-    font-size: 45px;
+    font-size: 60px;
+}
+
+.headline p {
+    font-size: 35px;
+    text-align: center;
 }
 
 .headline, .date, .blog {
@@ -20,3 +61,61 @@
     color: #1d4559;
 }
 
+#articles {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#articles > * {
+    margin: 50px;
+    width: 75vw;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#articles img {
+    width: 100%;
+}
+
+#news2 .image {
+    position: relative;
+    width: 100%;
+    height: 40vh;
+}
+
+#news2 .image img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#news2 .image .vector {
+    object-fit: contain;
+    margin-left: 150px;
+}
+
+#news2 > .date {
+    margin-top: -50px;
+}
+
+#news2 > .date > h2 {
+    font-size: 35px;
+}
+
+#news2 > .date > p {
+    font-size: 25px;
+}
+
+.blog {
+    font-size: 20px;
+    width: 800px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}

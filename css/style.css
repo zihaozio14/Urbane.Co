@@ -36,11 +36,14 @@ ul > li::before {
 #topnav {
     min-height: 50px;
     background-color: #124559;
-
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
+}
+
+#topnav > a{
+    padding-left: 50px;
 }
 
 #topnav > .hamburger {
@@ -48,19 +51,21 @@ ul > li::before {
     flex-flow: row nowrap;
     justify-content: space-evenly;
     align-items: flex-end;
-
     align-self: stretch;
+    margin-right: 30px;
 }
 
 /*add padding and font style of link here*/
 #topnav > .hamburger > a {
     padding: 0px 10px 0px 10px;
     font-family: 'League Spartan', sans-serif;
-    font-size: 25px;
+    font-size: 30px;
     color: white;
     display: flex;
     align-items: center;
     align-self: stretch;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 #topnav > .hamburger > a:hover {
@@ -75,12 +80,11 @@ ul > li::before {
     flex-flow: row nowrap;
     justify-content: space-evenly;
     align-items: center;
-
     align-self: center;
 }
 
 #topnav > .hamburger > nav > a {
-    margin: 10px;
+    margin: 20px;
 }
 
 #menu-btn {
@@ -145,11 +149,15 @@ footer > p {
 }
 
 footer > #logo, #newsletter > p {
-    font-size: 20px;
+    font-size: 22px;
 }
 
 footer > #logo {
     padding-left: 10px;
+}
+
+footer > #logo > a {
+    margin-left: -40px;
 }
 
 footer > #footnav, #newsletter {
@@ -178,268 +186,6 @@ footer > #newsletter > h2 {
 .icon {
     object-fit: contain;
 }
-
-/*slideshow*/
-.slideshow {
-    position: relative;
-    width: 100vw;
-    height: 60vh;
-}
-
-.slideshow > a {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-}
-
-.slideshow > a > * {
-    position: absolute;
-}
-
-.slideshow > a > img {
-    width: 100%;
-    height: 100%;
-}
-
-#feature {
-    width: 100vw;
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-    justify-content: space-between;
-}
-
-#feature > nav {
-    width: 100%;
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-#feature > nav > a {
-    width: 25vw;
-    height: 75vh;
-    margin: 20px;
-}
-
-#feature > hgroup {
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-    justify-content: center;
-}
-
-:is(#sportslook, #featurednews) {
-    width: 100vw;
-    height: 65vh;
-    position: relative;
-}
-
-#sportslook > * {
-    position: absolute;
-}
-
-#featurednews > a {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: stretch;
-    align-items: stretch;
-
-    width: 100%;
-    height: 100%;
-}
-
-#featurednews > a > img {
-    height: 100%;
-}
-
-#featurednews > a > hgroup {
-    flex-basis: 30%;
-    padding-left: 110px;
-}
-
-.fade {
-    display: none;
-}
-
-#indicator {
-    margin: 10px;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: center;
-}
-
-span {
-    margin: 2px;
-    background-color: lightgray;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%/50%;
-}
-
-.active {
-    background-color: grey;
-}
-
-.vector {
-    object-fit: contain;
-}
-
-#feature, #sportslook, #featurednews {
-    margin: 100px 0px 100px 0px;
-}
-
-/*about*/
-#about, #headline {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
-}
-
-#headline {
-    margin: 50px 0 20px 0;
-}
-
-#about .banner {
-    position: relative;
-    width: 100vw;
-    height: 75vh;
-
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-#about .banner > * {
-    position: absolute;
-}
-
-#h-p {
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-:is(#history, #purpose) {
-    width: 75vw;
-    height: 50vh;
-    margin: 50px;
-
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-:is(#history, #purpose) > * {
-    width: 50%;
-    height: 100%;
-    object-fit: contain;
-}
-
-#m-v {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: center;
-
-    width: 100vw;
-    height: 50vh;
-
-    padding: 50px;
-}
-
-#m-v > * {
-    width: 50%;
-    height: 100%;
-    padding: 20px;
-    margin: 50px;
-}
-
-
-/*news*/
-#news {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: space-between;
-    align-items: center;
-}
-#news .banner {
-    width: 100vw;
-    height: 75vh;
-    position: relative;
-
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-#news .banner > * {
-    position: absolute;
-}
-
-#news .headline {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
-
-    margin: 50px 0 40px 0;
-}
-
-#articles {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
-}
-
-#articles > * {
-    margin: 50px;
-    width: 75vw;
-
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#articles img {
-    width: 100%;
-}
-
-#news2 .image {
-    position: relative;
-    width: 100%;
-    height: 40vh;
-}
-
-#news2 .image img {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-}
-
-#news2 .image .vector {
-    object-fit: contain;
-    margin-left: 150px;
-}
-
-.blog {
-    font-size: 20px;
-    width: 550px;
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-
 
 /*contact*/
 #headline {
@@ -490,67 +236,6 @@ span {
 }
 
 
-/*products*/
-#product {
-    width: 100vw;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#product #headline {
-    flex-basis: 100%;
-}
-
-#product #categories {
-    margin: 20px;
-    align-self: flex-start;
-
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: space-evenly;
-    align-items: flex-start;
-}
-
-#product #categories > * {
-    cursor: pointer;
-    margin: 20px;
-}
-
-#product #display {
-    width: 70%;
-    position: relative;
-    flex-grow: 1;
-
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: center;
-}
-
-#promotion, #new-in, #retail {
-    position: absolute;
-    display: none;
-    flex-flow: row wrap;
-    justify-content: flex-start;
-    align-items: stretch;
-    flex-grow: 1;
-}
-
-:is(#promotion, #new-in, #retail) > article {
-    margin: 10px;
-}
-
-:is(#promotion, #new-in, #retail).toggle {
-    position: relative;
-    display: flex;
-}
-
-:is(#promo, #new, #ret).toggle {
-    color: #124559;
-    text-decoration: underline;
-}
 
 @media screen and (max-width: 890px) {
     #topnav {
@@ -562,7 +247,7 @@ span {
         margin-left: -60vw;
         width: 60vw;
         height: 100vh;
-        background-color: white;
+        background-color: #1d4559;
 
         position: fixed;
         top: 0px;
@@ -577,9 +262,16 @@ span {
     }
 
     /*add padding and font style of link here*/
+    #topnav > a{
+        padding-left: 0px;
+    }
+    
     #topnav > .hamburger > a {
+        margin-top: 25px;
+        margin-left: 12px;
         padding: 10px 0px 10px 10px;
-        color: #124559;
+        border-bottom: 2px solid white;
+        color: white;
     }
 
     #topnav > .hamburger > a:hover {
@@ -701,24 +393,4 @@ span {
         width: 100%;
     }
 
-    #product {
-        flex-flow: column nowrap;
-    }
-
-    #product #categories {
-        flex-flow: row nowrap;
-        align-self: center;
-        width: 100%;
-    }
-
-    #product #display {
-        flex-grow: 1;
-        width: 100vw;
-        align-self: stretch;
-        align-items: center;
-    }
-
-    #product #display > * {
-        flex-flow: column nowrap;
-    }
 }

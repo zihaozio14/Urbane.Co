@@ -157,7 +157,12 @@ footer > #logo {
 }
 
 footer > #logo > a {
-    margin-left: -40px;
+    margin-left: -20px;
+}
+
+footer > #logo > p {
+    padding-left: 10px;
+    font-size: 25px;
 }
 
 footer > #footnav, #newsletter {
@@ -172,7 +177,6 @@ footer > #footnav {
     align-items: flex-start;
 }
 
-
 footer > #footnav > a {
     font-family: 'League Spartan', sans-serif;
     font-size: 32px;
@@ -180,11 +184,369 @@ footer > #footnav > a {
 
 footer > #newsletter > h2 {
     font-family: 'League Spartan', sans-serif;
-    font-size: 40px;
+    font-size: 53px;
+    margin-bottom: 10px;
+}
+
+footer > #newsletter > p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+footer > #newsletter > form {
+    margin-bottom: 12px;
+}
+
+footer > #newsletter > form > button {
+    font-family: 'Noticia Text';
+    background-color: black;
+    color: white;
 }
 
 .icon {
     object-fit: contain;
+}
+
+/*INDEX*/
+#slide1 button {
+    font-family: 'Michroma'; 
+    color: white; 
+    background-color: #021E82;
+}
+
+
+#feature h2 {
+    font-family: 'Noticia Text';
+    font-size: 45px;
+    color:#1D4559;
+}
+
+#feature p {
+    font-family: 'Noticia Text';
+    font-size: 20px;
+    color:#1D4559;
+}
+
+#sportslook > img {
+    margin-top: -45px;
+    padding-left: 750px;
+}
+
+#sportslook > button {
+    font-family: 'League Spartan';
+    color: white;
+    background-color: black;
+    padding: 20px 70px;
+
+    font-size: 45px;
+    margin-top: 500px;
+    margin-left: 1300px;
+}
+
+#featurednews h2 {
+    font-family: 'Noticia Text';
+    font-size: 45px;
+    color:#1D4559;
+    margin-bottom: 75px;
+}
+
+#featurednews > a > hgroup {
+    margin-left: 40px;
+}
+
+#featurednews h1 {
+    font-family: 'Michroma';
+    font-weight: normal;
+    font-size: 100px;
+    line-height: 110px;
+    color:#1D4559;
+    padding-top: 45px;
+}
+
+#featurednews p {
+    font-family: 'Noticia Text';
+    font-size: 35px;
+    color:#1D4559;  
+}
+
+/*slideshow*/
+.slideshow {
+    position: relative;
+    width: 100vw;
+    height: 60vh;
+}
+
+.slideshow > a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.slideshow > a > * {
+    position: absolute;
+}
+
+.slideshow > a > img {
+    width: 100%;
+    height: 100%;
+}
+
+.slideshow > #slide1 > button {
+    font-size: 30px;
+    padding: 20px 60px;
+    margin-left: 350px;
+    margin-top: 400px;
+}
+
+#feature {
+    width: 100vw;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#feature > nav {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#feature > nav > a {
+    width: 25vw;
+    height: 50vh;
+    margin: 20px;
+}
+
+#feature > hgroup {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#feature > hgroup > p {
+    text-align: center;
+}
+
+:is(#sportslook, #featurednews) {
+    width: 100vw;
+    height: 65vh;
+    position: relative;
+}
+
+#sportslook > * {
+    position: absolute;
+}
+
+#featurednews > a {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: stretch;
+    align-items: stretch;
+
+    width: 100%;
+    height: 100%;
+}
+
+#featurednews > a > img {
+    height: 100%;
+}
+
+#featurednews > a > hgroup {
+    flex-basis: 30%;
+    padding-left: 110px;
+}
+
+.fade {
+    display: none;
+}
+
+#indicator {
+    margin: 10px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    margin: 2px;
+    background-color: lightgray;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%/50%;
+}
+
+.active {
+    background-color: grey;
+}
+
+.vector {
+    object-fit: contain;
+}
+
+#feature, #sportslook, #featurednews {
+    margin: 100px 0px 100px 0px;
+}
+
+#featurednews {
+    margin-bottom: 200px;
+    padding-bottom: 150px;
+}
+
+#featurednews > a{
+    border: 3px solid black;
+    height: 50vh;
+}
+
+#featurednews > a > img{
+    width: 65vw;
+}
+
+/*about*/
+#about, #headline {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#headline {
+    margin: 50px 0 20px 0;
+}
+
+#about .banner {
+    position: relative;
+    width: 100vw;
+    height: 60vh;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#about .banner > * {
+    position: absolute;
+}
+
+#h-p {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+:is(#history, #purpose) {
+    width: 75vw;
+    height: 50vh;
+    margin: 50px;
+
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+:is(#history, #purpose) > * {
+    width: 50%;
+    height: 100%;
+    object-fit: contain;
+}
+
+:is(#history, #purpose) > hgroup > h2 {
+    font-size: 45px;
+}
+
+:is(#history, #purpose) > hgroup > p {
+    font-size: 30px;
+}
+
+#history > hgroup > p {
+    width: 90%;
+}
+
+
+#purpose > hgroup {
+    padding-left: 100px;
+}
+
+#m-v {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 50vh;
+
+    padding: 50px;
+    padding-left: 70px;
+}
+
+#m-v > * {
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+    margin: 50px;
+    margin-left: 100px;
+}
+
+#mission, #vision {
+    width: 30%;
+}
+
+:is(#mission, #vision) > h2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+:is(#mission, #vision) > ul {
+    font-size: 20px;
+}
+
+
+#vision > h2 {
+   margin-left: -10px;
+}
+
+#vision > ul {
+    margin-left: -10px;
+}
+
+.banner {
+    font-family: 'League Spartan';
+    color: white;    
+}
+
+.banner h1, .banner p {
+    margin-left: 80px;
+}
+
+.banner h1{
+    font-size: 165px;
+}
+
+.banner p{
+    font-size: 45px;
+}
+
+#headline h1 {
+    font-size: 60px;
+}
+
+#headline p {
+    font-size: 35px;
+    text-align: center;
+}
+
+#headline, #h-p, #m-v {
+    font-family: 'Noticia Text';
+    color: #1d4559;
 }
 
 /*contact*/
@@ -200,6 +562,7 @@ footer > #newsletter > h2 {
     width: 65vw;
     height: 75vh;
     margin: 50px;
+    margin-bottom: 200px;
 }
 
 #contact {
@@ -234,8 +597,6 @@ footer > #newsletter > h2 {
 #contact #headline {
     text-align: center;
 }
-
-
 
 @media screen and (max-width: 890px) {
     #topnav {
@@ -318,20 +679,61 @@ footer > #newsletter > h2 {
     footer > #logo {
         font-size: 1.05rem;
         width: 22rem;
+        margin-bottom: 0px;
     }
 
-    #logo > a > img{
-        width: 250px;
-        height: 200px;
-        margin-bottom: -50px;
+    #logo > a > img {
+        width: 300px;
+        padding-left: 10px;
+    }
+
+    footer > #footnav {
+        margin-bottom: -25px;
+    }
+
+    footer > #footnav > a {
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+
+    #index > .slideshow > #slide1 > .vector {
+        margin-left: 0px;
+
     }
 
     #index > #feature > nav {
         flex-flow: column nowrap;
     }
 
-    #feature > nav > a {
+    #index > #feature > nav > a {
         width: 75vw;
+    }
+
+    #index > #feature > nav > a > img {
+        object-fit: contain;
+        width: 100%;
+        margin: 1px;
+    }
+
+    #feature {
+        margin-top: 50px;
+    }
+
+    #sportslook > img {
+        object-fit: contain;
+        width: 100%;
+        padding-top: 100px;
+        margin-top: 0px;
+        padding-left: 0px;
+    }
+
+    #sportslook > a > img {
+        width: 400%;
+    }
+
+    #sportslook > button {
+        padding: 15px 20px;
+        width: 30px;
     }
 
     #featurednews > a {
@@ -342,10 +744,35 @@ footer > #newsletter > h2 {
         position: absolute;
     }
 
+    #about > .banner > hgroup > h1 {
+        margin-left: 0px;
+        font-size: 100px;
+        text-align: center;
+    }
+
+    #about > .banner > hgroup > p {
+        margin-left: 0px;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    #h-p {
+        margin-bottom: 20px;
+    }
+    
     :is(#history, #purpose) {
         width: 100vw;
         height: auto;
         flex-flow: column nowrap;
+    }
+
+    :is(#history, #purpose) > hgroup > h2 {
+        text-align: center;
+    }
+
+    :is(#history, #purpose) > hgroup > p {
+        text-align: center;
+        font-size: 20px;
     }
 
     #purpose > img {
@@ -356,14 +783,51 @@ footer > #newsletter > h2 {
         order: 2;
     }
 
+    #purpose > hgroup {
+        padding-left: 0px;
+    }
+
+    #purpose > hgroup > h2 {
+        line-height: 50px;
+        margin-bottom: 12px;
+    }
+
     #m-v {
         height: auto;
         flex-flow: column nowrap;
+        margin-top: -35px;
         margin-bottom: 50px;
     }
 
-    .banner {
-        align-items: center;
+    #mission, #vision {
+        width: 100%;
+        margin-left: 20px;
+    }
+
+    :is(#mission, #vision) > h2 {
+        text-align: center;
+        font-size: 50px;
+    }
+
+    :is(#mission, #vision) > ul > li {
+        text-align: center;
+        font-size: 19px;
+    }
+
+    #news > .banner > hgroup > h1 {
+        margin-left: 0px;
+        font-size: 100px;
+        text-align: center;
+    }
+
+    #news > .banner > hgroup > p {
+        margin-left: 0px;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    #news > .headline > p {
+        font-size: 25px;
     }
 
     .blog {
@@ -371,17 +835,67 @@ footer > #newsletter > h2 {
         text-align: center;
     }
 
-    #articles > * {
+    #news > #articles > * {
         flex-flow: column nowrap;
         justify-content: center;
     }
 
-    #news2 .image img:nth-child(1) {
-        object-fit: none;
+    #news > #articles > #news2 {
+        margin-top: -200px;
     }
 
-    #news2 .image .vector {
-        margin: 0;
+    #news > #articles > :is(#news1, #news2) > :is(.date, .blog) > p{
+        text-align: center;
+    }
+
+    #news > #articles > :is(#news1, #news2) > .date > h2{
+        font-size: 30px;
+    }
+    
+    #news > #articles > :is(#news1, #news2) > .date > p {
+        font-size: 20px;
+    }
+    
+    #news > #articles > :is(#news1, #news2) > .blog > h2{
+        width: 122vw;
+        text-align: center;
+    }
+
+    #news > #articles > #news2 > .blog > h2{
+        font-size: 25px;
+    }
+
+    #news > #articles > #news1 > .blog > h2{
+        font-size: 18px;
+    }
+
+    #news > #articles > :is(#news1, #news2) > .blog > p{
+        width: 100%;
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #news > #articles > #news1 > .blog > p{
+        font-size: 15px;
+    }
+
+    #news > #articles > #news2 > .blog > p{
+        font-size: 15px;
+    }
+
+    #news > #articles > #news2 > .date > h2{
+        z-index: 999;
+    }
+
+
+    #news2 .image img:nth-child(1) {
+        object-fit: contain;
+        padding-top: 250px;
+    }
+
+    #news2 > .image > .vector {
+        display: none;
     }
 
     #forms {

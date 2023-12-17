@@ -48,10 +48,12 @@
 }
 
 .headline h1 {
+    font-family: 'Noticia Text';
     font-size: 60px;
 }
 
 .headline p {
+    font-family: 'Noticia Text';
     font-size: 35px;
     text-align: center;
 }
@@ -82,6 +84,14 @@
     width: 100%;
 }
 
+#news1 > .date > h2 {
+    font-size: 30px;
+}
+
+#news1 > .date > p {
+    font-size: 20px;
+}
+
 #news2 .image {
     position: relative;
     width: 100%;
@@ -100,20 +110,20 @@
 }
 
 #news2 > .date {
-    margin-top: -50px;
+    margin-top: -20px;
 }
 
 #news2 > .date > h2 {
-    font-size: 35px;
+    font-size: 30px;
 }
 
 #news2 > .date > p {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .blog {
     font-size: 20px;
-    width: 800px;
+    width: 520px;
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;

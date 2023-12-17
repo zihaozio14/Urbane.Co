@@ -72,12 +72,19 @@
 #headline p {
     font-family: 'Noticia Text';
     font-size: 25px;
+    margin-bottom: 60px;
 }
 
-#categories h6 {
+#categories > h6 {
     font-family: 'Noticia Text';
-    font-size: 25px;
+    font-size: 30px;
     color: #A5A5A5;
+    padding-left: 50px;
+}
+
+#display {
+    margin-left: 150px;
+    margin-bottom: 120px;
 }
 
 #display article {
@@ -104,6 +111,14 @@
     font-size: 25px;
 }
 
+#display > :is(#promotion, #new-in, #retail) > article:hover {
+    text-decoration: underline;
+}
+
+#display > :is(#promotion, #new-in, #retail) > article:active {
+    color: red;
+}
+
 @media screen and (max-width: 890px) {
     #product {
         flex-flow: column nowrap;
@@ -122,7 +137,20 @@
         align-items: center;
     }
 
-    #product #display > * {
+    #headline > p {
+        width: 65%;
+        font-size: 23px;
+    }
+
+    #categories > h6 {
+        padding-left: 0px;
+    }
+    
+    #display {
+        margin-left: 0px;
+    }
+
+    #product > #display > * {
         flex-flow: column nowrap;
     }
 

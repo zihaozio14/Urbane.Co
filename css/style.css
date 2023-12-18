@@ -182,6 +182,11 @@ footer > #footnav > a {
     font-size: 32px;
 }
 
+footer > #footnav > a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
 footer > #newsletter > h2 {
     font-family: 'League Spartan', sans-serif;
     font-size: 53px;
@@ -189,8 +194,8 @@ footer > #newsletter > h2 {
 }
 
 footer > #newsletter > p {
-    font-size: 18px;
-    margin-bottom: 15px;
+    font-size: 19px;
+    margin-bottom: 30px;
 }
 
 footer > #newsletter > form {
@@ -201,6 +206,11 @@ footer > #newsletter > form > button {
     font-family: 'Noticia Text';
     background-color: black;
     color: white;
+}
+
+footer > #newsletter > form > button:hover {
+    background-color: white;
+    color: black;
 }
 
 .icon {
@@ -589,6 +599,11 @@ span {
     align-self: stretch;
 }
 
+#forms button:hover {
+    background-color: white;
+    color: black;
+}
+
 #forms textarea {
     align-self: stretch;
     flex-grow: 1;
@@ -697,8 +712,8 @@ span {
     }
 
     #index > .slideshow > #slide1 > .vector {
-        margin-left: 0px;
-
+        max-width: 100%;
+        margin: 0px;
     }
 
     #index > #feature > nav {
@@ -719,6 +734,11 @@ span {
         margin-top: 50px;
     }
 
+    #sportslook {
+        max-width: 100%;
+        height: 50vh;
+    }
+
     #sportslook > img {
         object-fit: contain;
         width: 100%;
@@ -733,15 +753,30 @@ span {
 
     #sportslook > button {
         padding: 15px 20px;
-        width: 30px;
+        width: 300px;
+        margin-left: 70px;
+        margin-top: 350px;
     }
 
     #featurednews > a {
         justify-content: center;
     }
 
+    #featurednews > a > img {
+        width: 100vw;
+    }
+    
     #featurednews > a > hgroup {
         position: absolute;
+        margin-left: -80px;
+    }
+
+    #featurednews > a > hgroup > h1 {
+        color: white;
+    }
+
+    #featurednews > a > hgroup > p {
+        display: none;
     }
 
     #about > .banner > hgroup > h1 {
@@ -870,10 +905,11 @@ span {
     }
 
     #news > #articles > :is(#news1, #news2) > .blog > p{
-        width: 100%;
-        text-align: center;
-        margin: 0px;
+        max-width: 100%;
+        overflow: hidden;
         padding: 0px;
+        margin-left: 130px;
+        margin-right: 130px;
     }
 
     #news > #articles > #news1 > .blog > p{
